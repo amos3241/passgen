@@ -1,1 +1,1 @@
-#passgen - simple CLI password generator
+# passgen - simple CLI password generator

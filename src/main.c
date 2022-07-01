@@ -68,8 +68,6 @@ int main(int argc, char **argv)
     char *pEnd; 
     unsigned long len = strtol(argv[1], &pEnd, 0);
     
-    printf("argv[1]: %lu argv[2]: %s\n", len, argv[2]);
-
     if(len > 256)
     {
         puts("password needs to be less than 256");
